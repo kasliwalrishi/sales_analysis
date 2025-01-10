@@ -14,6 +14,7 @@ def plot_sales_trend(data_file):
     sns.lineplot(data=monthly_sales, x='Month', y='Sales',hue = 'Year', marker='o')
     plt.title('Monthly Sales Trend')
     plt.xlabel('Month')
+    
     plt.ylabel('Sales')
     plt.legend(title='Year')
     plt.show()
@@ -42,6 +43,7 @@ def plot_country_dist(data_file):
     
     plt.figure(figsize=(10, 8))
     sns.countplot(data=df_top, x='Country', palette='viridis')
+    
     plt.title('Top 10 Country-wise Sales Distribution')
     plt.xlabel('Country')
     plt.ylabel('Count')
@@ -58,6 +60,7 @@ def plot_country_dist_by_profit(data_file):
 
     plt.figure(figsize=(12, 7))
     plt.bar(top_countries_by_profit['Country'], top_countries_by_profit['Profit'])
+    
     plt.title('Top 10 Profit-Wise Countries Distribution')
     plt.xlabel('Country')
     plt.ylabel('Total Profit')
