@@ -22,6 +22,12 @@ This project analyzes the e-commerce sales and profit data of a supermarket. Usi
 2. **Create a virtual environment** (recommended):
     ```bash
     python -m venv venv
-3. **Or dirctly view project output on link** [Click](https://salesanalysis-byrishi.streamlit.app/)
+3. ## Installation
 
+To install the required packages, run the following command:
+
+```bash
+pip install -r requirements.txt
+
+4. **Or dirctly view project output on link** [Click](https://salesanalysis-byrishi.streamlit.app/)
    
